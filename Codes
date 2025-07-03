@@ -1,1 +1,26 @@
-
+#include <stdio.h>
+int main() 
+{
+    char name[50], i, count, choice, ch;
+    printf("Enter the string: ");
+    gets(name);
+    printf("Enter the character to count: ");
+    scanf("%c",&ch);
+    printf("\nMenu: ");
+    printf("1 Count character\n");
+    printf("2 Exit\n");
+    printf("Enter your choice: ");
+    scanf("%d",&choice);
+    switch(choice) 
+	{
+        case 1:
+            printf("\nCharacter '%c", ch);
+            printf("\nTime: ",count);
+            break;
+        case 2:
+            printf("Program exit: \n");
+            break;
+        default:
+            printf("Invalid choice\n");
+	}
+}
