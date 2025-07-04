@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{
+    int num1=10, num2=20;
+    int *ptr;       
+    ptr=&num1;     
+    printf("Original value:\n");
+    printf("\nnum=%d", num1);     
+    printf("\n*ptr = %d", *ptr);
+	  ptr=&num2;     
+    printf("\nAfter modify:\n");
+    printf("\nnum = %d",num2);    
+    printf("\n*ptr=%d",*ptr);    
+}
