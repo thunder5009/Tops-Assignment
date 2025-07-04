@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() 
+{
+    int age=20;          //  number
+    char grade='B';      // Single letter
+    float price=99.99;   // Decimal number
+    // Print values
+    printf("\nAge: %d", age);
+    printf("\nGrade: %c", grade);
+    printf("\nPrice: %.2f", price);
+}
